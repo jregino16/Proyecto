@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('documento');
             $table->string('nombre');
+            $table->string('correo');
             $table->string('direccionResidencia');
             $table->string('estrato');
             $table->timestamps();
