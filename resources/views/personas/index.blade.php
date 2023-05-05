@@ -12,7 +12,7 @@
 
     
 <main style="background-color:#f7f7f5">
-    <a href="{{url('personas/create')}}" class="btn btn-info my-3">Crear Persona</a>
+    <a href="{{url('personas/create')}}" class="btn btn-info my-3">Crear Personas</a>
 
 
  
@@ -33,6 +33,7 @@
         </tr>
         </thead>
         <tbody>
+            <!-- Aqui es donde se pasa toda de la variable que estaba en el conrolador en persona y me muestras su id, documento, nombre etc-->
             @foreach ($personas as $persona)
             <tr>
                 <td>{{ $persona->id }}</td>
