@@ -13,6 +13,7 @@
     
 <main style="background-color:#f7f7f5">
     <a href="{{url('personas/create')}}" class="btn btn-info my-3">Crear Personas</a>
+    <a href="{{ url('home') }}" class="btn btn-secondary">Inicio</a>
 
 
  
